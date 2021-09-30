@@ -1,0 +1,299 @@
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+header {
+    background: #ffffff !important;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.logo-title {
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    font-size: 25px;
+    transition: .5s;
+}
+
+a.logo-title:hover {
+    color: #ccc !important;
+}
+
+form a {
+    border: 2px solid #6278df !important;
+    color: #6278df !important;
+    font-weight: bold !important;
+    padding: 8px 30px !important;
+}
+
+form a:hover {
+    color: #ffffff !important;
+    background-color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+
+}
+
+form a:focus {
+
+    box-shadow: 3px 3px 27px -3px #6278df !important;
+}
+
+ul {
+    margin-left: 110px;
+}
+
+ul li {
+    padding: 0 20px;
+}
+
+ul li a {}
+
+/* =================banner-section============= */
+.banner-section {
+    background-image: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+
+}
+
+.banner-caption {}
+
+.banner-caption h3 {}
+
+.banner-caption h1 {
+    margin: 61px 0 70px;
+    font-weight: 700;
+}
+
+.banner-caption .form-control {
+    padding: 16px 0;
+    outline: none;
+}
+
+.banner-caption .form-control:focus {
+    box-shadow: 3px 3px 27px -3px #6278df !important;
+}
+
+.banner-caption .btn {
+    display: block;
+    width: 100%;
+    background-color: #5ba533;
+    color: #fff;
+    font-size: 24px;
+    border: 1px solid transparent;
+    font-weight: 700;
+    padding: 13px 0;
+}
+
+.banner-caption .btn:hover {
+    background-color: #fff !important;
+    border: 1px solid #6278df !important;
+    color: #6278df !important;
+    box-shadow: 3px 3px 27px -3px #6278df !important;
+}
+
+.banner-caption .btn:focus {
+    box-shadow: none !important;
+}
+
+/* ================== number-cunter Section ============== */
+.number-cunter {}
+
+.number-cunter-item {}
+
+.number-cunter-item h2 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.number-cunter-item p {
+    font-size: 20px;
+}
+
+/* ==================about-section============= */
+
+.about-section {
+    background-color: #f7f9ff;
+}
+
+.about-contant {
+    margin-top: 12%;
+    margin-left: 25px;
+}
+
+.about-contant h1 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.about-contant p {
+    font-size: 22px;
+    padding-right: 28px;
+}
+
+.contant-img {}
+
+.contant-img img {
+    width: 95%;
+}
+
+/* ======================= future-section ================= */
+
+.future-section {}
+
+.future-title {}
+
+.future-title h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.future-title p {
+    font-size: 25px;
+    color: #767895;
+}
+
+.future-item {
+    height: 280px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+
+.left-img-sec {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.left-img-sec img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -130px;
+}
+
+.fu-img2 img {
+    position: relative;
+    left: -45px;
+}
+
+.fu-img3 img {
+    position: relative;
+    left: 0px;
+}
+
+.fu-img5 img {
+    position: relative;
+    left: -35px;
+}
+
+.right-text-sec {
+    width: 60%;
+    padding: 30px;
+}
+
+.right-text-sec h4 {
+    margin-bottom: 20px;
+}
+
+.right-text-sec p {
+    color: #767895;
+}
+
+/* ========================= application-section ================== */
+.application-section {}
+
+.application-title {}
+
+.application-title h1 {
+    font-size: 50px;
+}
+
+.appliction-img {}
+
+.appliction-img {
+    position: relative;
+
+
+}
+
+.appliction-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a8b5f8;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+
+}
+
+.appliction-img:hover::before {
+    opacity: .6;
+    visibility: visible;
+
+}
+
+/* ======================== pricing-table-section =================== */
+.pricing-table-section {
+    background-color: #f7f9ff;
+}
+
+.pricing-table-caption {}
+
+.pricing-table-caption h1 {
+    font-size: 63px;
+    margin-bottom: 30px;
+}
+
+.pricing-table-caption h4 {
+    color: #767676;
+}
+
+.pricing-table {}
+
+.pricing-table h1 {}
+
+.pricing-table h4 {}
+
+.pricing-table ul {
+    margin: 0;
+    padding: 0px;
+}
+
+.pricing-table ul li {
+    padding: 0;
+}
+
+.pricing-table ul li i {}

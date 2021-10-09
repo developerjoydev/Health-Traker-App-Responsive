@@ -820,12 +820,12 @@ footer {
     .banner-caption {
         width: 100% !important;
     }
-    .banner-caption .form-control {
-        padding: 7px 0 !important;
-        width: 50% !important;
-        margin: 0 auto !important;
-
-    }
+	.banner-caption .form-control {
+	padding: 7px 0 !important;
+	width: 50% !important;
+	margin: 0 auto !important;
+	margin-bottom: 11px !important;
+}
     .banner-caption .btn {
         width: 50% !important;
         padding: 7px 0 !important;
